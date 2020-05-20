@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace CashflowApi.Controllers
+namespace Cashflow.Api.Controllers
 {
     [ApiController]
     [Route("")]
