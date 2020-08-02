@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Cashflow.Api.Controllers
+namespace Cashflow.Services.Account.Controllers
 {
     [ApiController]
-    [Route("")]
-    public class ApiController : ControllerBase
+    [Route("account")]
+    public class AccountController : ControllerBase
     {
-        private readonly ILogger<ApiController> _logger;
+        private readonly ILogger<AccountController> _logger;
 
-        public ApiController(ILogger<ApiController> logger)
+        public AccountController(ILogger<AccountController> logger)
         {
             _logger = logger;
         }
