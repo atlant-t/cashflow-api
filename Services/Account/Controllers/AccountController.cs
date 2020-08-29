@@ -35,7 +35,7 @@ namespace Cashflow.Services.Account.Controllers
         expression.CreateMap<AccountToCreateContract, AccountEntityBase>();
         expression.CreateMap<AccountEntityFull, AccountCreatedContract>();
         // Configuration for editing item by id
-        expression.CreateMap<AccountEntityBase, AccountEditContract>();
+        expression.CreateMap<AccountEditContract, AccountEntityBase>();
       });
       _mapper = new Mapper(config);
     }
